@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9359B91829C2156C0010D836 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9359B91729C2156C0010D836 /* XCTest.framework */; };
 		9359B91929C2156C0010D836 /* XCTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9359B91729C2156C0010D836 /* XCTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		937BF28D29C2705000166D4A /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937BF28C29C2705000166D4A /* Package.swift */; };
 		A5414B4528F37A1A003F76A6 /* XcodeTestrail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5414B2428F379E2003F76A6 /* XcodeTestrail.framework */; };
 		A5414B4E28F37A45003F76A6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5414B4D28F37A45003F76A6 /* XCTest.framework */; };
 		A5414B4F28F37A46003F76A6 /* XCTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5414B4D28F37A45003F76A6 /* XCTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -25,7 +26,7 @@
 		A554386828F4C118002EBC8B /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554385D28F4C118002EBC8B /* Resource.swift */; };
 		A554386928F4C118002EBC8B /* IniParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554385E28F4C118002EBC8B /* IniParser.swift */; };
 		A554386A28F4C118002EBC8B /* TestRailClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554386028F4C118002EBC8B /* TestRailClient.swift */; };
-		A554386B28F4C118002EBC8B /* TestObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554386228F4C118002EBC8B /* TestObserver.swift */; };
+		A554386B28F4C118002EBC8B /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554386228F4C118002EBC8B /* Package.swift */; };
 		A554386E28F4C12D002EBC8B /* IniParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554386428F4C118002EBC8B /* IniParserTest.swift */; };
 		A554386F28F4C130002EBC8B /* TestRailConfigTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554386528F4C118002EBC8B /* TestRailConfigTest.swift */; };
 		A554387128F4C155002EBC8B /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = A554387028F4C155002EBC8B /* CHANGELOG.md */; };
@@ -64,7 +65,7 @@
 
 /* Begin PBXFileReference section */
 		9359B91729C2156C0010D836 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		9359B94C29C24A090010D836 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../../Downloads/Package.swift; sourceTree = "<group>"; };
+		937BF28C29C2705000166D4A /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		A5414B2428F379E2003F76A6 /* XcodeTestrail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XcodeTestrail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5414B4128F37A1A003F76A6 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5414B4D28F37A45003F76A6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -81,7 +82,7 @@
 		A554385D28F4C118002EBC8B /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		A554385E28F4C118002EBC8B /* IniParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IniParser.swift; sourceTree = "<group>"; };
 		A554386028F4C118002EBC8B /* TestRailClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRailClient.swift; sourceTree = "<group>"; };
-		A554386228F4C118002EBC8B /* TestObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestObserver.swift; sourceTree = "<group>"; };
+		A554386228F4C118002EBC8B /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../../../../../../Package.swift; sourceTree = "<group>"; };
 		A554386428F4C118002EBC8B /* IniParserTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IniParserTest.swift; sourceTree = "<group>"; };
 		A554386528F4C118002EBC8B /* TestRailConfigTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRailConfigTest.swift; sourceTree = "<group>"; };
 		A554387028F4C155002EBC8B /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
@@ -126,7 +127,7 @@
 				A554387228F4C162002EBC8B /* CHANGELOG.md */,
 				A554387328F4C162002EBC8B /* README.md */,
 				A554387428F4C162002EBC8B /* XcodeTestrail.podspec */,
-				9359B94C29C24A090010D836 /* Package.swift */,
+				937BF28C29C2705000166D4A /* Package.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -262,7 +263,7 @@
 		A554386128F4C118002EBC8B /* XCTests */ = {
 			isa = PBXGroup;
 			children = (
-				A554386228F4C118002EBC8B /* TestObserver.swift */,
+				A554386228F4C118002EBC8B /* Package.swift */,
 			);
 			path = XCTests;
 			sourceTree = "<group>";
@@ -411,9 +412,10 @@
 				A554384F28F4C111002EBC8B /* TestRail.swift in Sources */,
 				A554385528F4C111002EBC8B /* IniParserTest.swift in Sources */,
 				A554385428F4C111002EBC8B /* TestObserver.swift in Sources */,
+				937BF28D29C2705000166D4A /* Package.swift in Sources */,
 				A554386928F4C118002EBC8B /* IniParser.swift in Sources */,
 				A554385628F4C111002EBC8B /* TestRailConfigTest.swift in Sources */,
-				A554386B28F4C118002EBC8B /* TestObserver.swift in Sources */,
+				A554386B28F4C118002EBC8B /* Package.swift in Sources */,
 				A554385328F4C111002EBC8B /* TestRailClient.swift in Sources */,
 				A554385028F4C111002EBC8B /* TestRailConfig.swift in Sources */,
 				A554386628F4C118002EBC8B /* TestRail.swift in Sources */,
