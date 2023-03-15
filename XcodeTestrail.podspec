@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'XcodeTestrail'
+  s.name             = 'XcodeTestrailMaciOS'
   s.version          = '1.2.0'
   s.summary          = 'TestRail integration for your Xcode tests.'
 
@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
 A decoupled TestRail integration for your Xcode project to easily send results to TestRail.
                        DESC
 
-  s.homepage         = 'https://github.com/boxblinkracer/xcode-testrail'
+  s.homepage         = 'https://github.com/willparis2/xcode-testrail'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Christian Dangl' => 'boxblinkracer@gmx.net' }
-  s.source           = { :git => 'https://github.com/boxblinkracer/xcode-testrail.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/willparis2/xcode-testrail.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '12.0'
 
