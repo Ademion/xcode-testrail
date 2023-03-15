@@ -64,6 +64,7 @@
 
 /* Begin PBXFileReference section */
 		9359B91729C2156C0010D836 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9359B94C29C24A090010D836 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../../Downloads/Package.swift; sourceTree = "<group>"; };
 		A5414B2428F379E2003F76A6 /* XcodeTestrail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XcodeTestrail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5414B4128F37A1A003F76A6 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5414B4D28F37A45003F76A6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -125,6 +126,7 @@
 				A554387228F4C162002EBC8B /* CHANGELOG.md */,
 				A554387328F4C162002EBC8B /* README.md */,
 				A554387428F4C162002EBC8B /* XcodeTestrail.podspec */,
+				9359B94C29C24A090010D836 /* Package.swift */,
 			);
 			sourceTree = "<group>";
 		};
