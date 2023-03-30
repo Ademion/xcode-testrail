@@ -36,8 +36,8 @@ class TestRailConfig
         
         self.runId = "";
         
-        self.planId =iniParser.getValue(key: "TESTRAIL_TESTPLAN_ID");
-        self.suiteId =iniParser.getValue(key: "TESTRAIL_SUITE_ID");
+        self.planId = iniParser.getValue(key: "TESTRAIL_TESTPLAN_ID");
+        self.suiteId = iniParser.getValue(key: "TESTRAIL_SUITE_ID");
         
         self.projectId = iniParser.getValue(key: "TESTRAIL_PROJECT_ID");
         self.milestoneId = iniParser.getValue(key: "TESTRAIL_MILESTONE_ID");
