@@ -126,7 +126,7 @@ class TestRailClient
             
             _ = try self.postRequest(slug: "/add_run_to_plan_entry/" + String(planId) + "/" + String(runId), body: result);
             
-            print ("Test Run added to plan in TestRail: " + planId +" " + runId);
+            print ("Test Run added to plan in TestRail: " + planId + " " + runId);
             
         } catch {
             print(error)
