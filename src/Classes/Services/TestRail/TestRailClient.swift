@@ -46,7 +46,7 @@ class TestRailClient
     }
     
     
-    public func createRun(projectId : String, milestoneId: String, name : String, description : String) -> String
+    public func createRun(projectId : String, milestoneId: String, name : String, description : String, suiteId: String) -> String
     {
         do {
             
@@ -58,14 +58,16 @@ class TestRailClient
                     "milestone_id" : milestoneId,
                     "description" : description,
                     "include_all": false,
-                    "case_ids": []
+                    "case_ids": [],
+                    "suite_id":suiteId
                 ]
             } else {
                 result = [
                     "name" : name,
                     "description" : description,
                     "include_all": false,
-                    "case_ids": []
+                    "case_ids": [],
+                    "suite_id":suiteId
                 ]
             }
             
@@ -113,6 +115,23 @@ class TestRailClient
         } catch {
             print(error)
         }
+    }
+    public func addRunToPlanEntry(runId : String, planId : String)
+    {
+        do {
+            
+            let result = [
+                "config_ids": []
+            ];
+            
+            _ = try self.postRequest(slug: "/add_run_to_plan_entry/" + String(planId) + "/" + String(runId), body: result);
+            
+            print ("Test Run added to plan in TestRail: " + planId +" " + runId);
+            
+        } catch {
+            print(error)
+        }
+    }
     }
     
     public func sendResult(runId : String, caseId: String, statusId : Int, durationS : Int, comment : String)

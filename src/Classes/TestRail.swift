@@ -90,11 +90,14 @@ class TestRail
                 let newRunID = self.client.createRun(
                     projectId: self.config.getProjectId(),
                     milestoneId: self.config.getMilestoneId(),
+                    planId: self.config.getPlanIdId(),
+                    suiteId: self.config.getSuiteId(),
                     name: name,
                     description: ""
                 );
                 
                 self.config.setRunId(runId: newRunID);
+                let addRunToPlan = self.client.addRunToPlanEntry(runId: String, planId: <#T##String#>)
                 
             } else {
                 

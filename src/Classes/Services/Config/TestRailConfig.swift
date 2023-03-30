@@ -17,6 +17,9 @@ class TestRailConfig
     
     private var runId : String;
     
+    private var planId : String;
+    private var suiteId : String;
+    
     private var projectId : String;
     private var milestoneId : String;
     private var runName : String;
@@ -32,6 +35,9 @@ class TestRailConfig
         self.password = iniParser.getValue(key: "TESTRAIL_PWD");
         
         self.runId = "";
+        
+        self.planId =iniParser.getValue(key: "TESTRAIL_TESTPLAN_ID");
+        self.suiteId =iniParser.getValue(key: "TESTRAIL_SUITE_ID");
         
         self.projectId = iniParser.getValue(key: "TESTRAIL_PROJECT_ID");
         self.milestoneId = iniParser.getValue(key: "TESTRAIL_MILESTONE_ID");
@@ -86,6 +92,16 @@ class TestRailConfig
     public func getProjectId() -> String
     {
         return self.projectId;
+    }
+    
+    public func getPlanIdId() -> String
+    {
+        return self.planId;
+    }
+    
+    public func getSuiteId() -> String
+    {
+        return self.suiteId;
     }
     
     public func getMilestoneId() -> String
