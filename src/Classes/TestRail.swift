@@ -90,10 +90,9 @@ class TestRail
                 let newRunID = self.client.createRun(
                     projectId: self.config.getProjectId(),
                     milestoneId: self.config.getMilestoneId(),
-                    
-                    suiteId: self.config.getSuiteId(),
                     name: name,
-                    description: ""
+                    description: "",
+                    suiteId: self.config.getSuiteId()
                 );
                 let plan = self.config.getPlanIdId();
                 
