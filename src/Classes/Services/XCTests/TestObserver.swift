@@ -3,7 +3,6 @@
 //
 //  Copyright © 2022 Christian Dangl. All rights reserved.
 //
-
 import Foundation
 import XCTest
 
@@ -89,4 +88,3 @@ class TestObserver: NSObject, XCTestObservation
 
     
 }
-

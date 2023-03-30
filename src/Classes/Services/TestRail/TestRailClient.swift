@@ -132,7 +132,6 @@ class TestRailClient
             print(error)
         }
     }
-    }
     
     public func sendResult(runId : String, caseId: String, statusId : Int, durationS : Int, comment : String)
     {
