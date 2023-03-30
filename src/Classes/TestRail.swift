@@ -97,7 +97,7 @@ class TestRail
                 let plan = self.config.getPlanIdId();
                 
                 self.config.setRunId(runId: newRunID);
-                let addRunToPlan = self.client.addRunToPlanEntry(runId: newRunID, planId: plan)
+                let _: () = self.client.addRunToPlanEntry(runId: newRunID, planId: plan)
                 
             } else {
                 
