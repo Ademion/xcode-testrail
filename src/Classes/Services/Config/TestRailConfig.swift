@@ -115,7 +115,7 @@ class TestRailConfig
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd-MM-YY HH:mm"
         let currentDateTime = dateFormatter.string(from: date )
-        return self.runName + currentDateTime;
+        return self.runName + " " + currentDateTime;
     }
     
     public func isCloseRun() -> Bool
