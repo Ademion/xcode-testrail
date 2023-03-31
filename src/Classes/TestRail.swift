@@ -98,7 +98,7 @@ class TestRail
                 
                 self.config.setRunId(runId: newRunID);
                 
-                let _: () = self.client.addRunToPlanEntry(runId: newRunID, planId: plan)
+                
                 
             } else {
                 
@@ -135,6 +135,7 @@ class TestRail
     {
         if (self.config.isCreateRunMode() && self.config.isCloseRun())
         {
+            self.client.addRunToPlanEntry(runId: self.config.getRunId(), planId: self.config.getPlanIdId())
             self.client.closesRun(runId: self.config.getRunId());
         }
     }
